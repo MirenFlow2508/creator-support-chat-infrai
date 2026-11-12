@@ -1,0 +1,17 @@
+{
+  "name": "creator-support-chat-infrai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "chat": "node --experimental-strip-types src/creator_support_chat.ts",
+    "test": "node --experimental-strip-types --test src/creator_support_chat.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  }
+}
